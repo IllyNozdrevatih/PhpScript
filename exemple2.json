@@ -1,0 +1,45 @@
+{
+	"Шины": {
+		"brands": [
+			"Accelera", "Barum", "Continental", "Debica",
+			"Evergreen", "Firestone", "Goodyear",
+			"Kumho", "Mabor", "Minerva"
+		],
+
+		"types": [
+			"Alpha", "Platinum", "Green Ace", "Sport Green", "AZ850",
+			"Optima A1", "G-Force R1", "Rugged Terrain T/A", "GPR300",
+			"ContiIceContact HD"
+		],
+
+		"characteristics": {
+			"ДИАМЕТР": ["R13", "R14", "R15", "R16", "R17"],
+			"ШИРИНА": {"start": 150, "end": 250, "step": 5},
+			"ПРОФИЛЬ": {"start": 50, "end": 100, "step": 5},
+			"СЕЗОН": ["Летние", "Зимние", "Всесезонние"],
+			"ШИПЫ": ["Шип", "Не шип", "Под шип"]
+		}
+	},
+
+	"Диски": {
+		
+		"brands": [
+			"Adora", "Alutec", "Disla", "Replica", "Fondmetal",
+			"JT", "KFZ", "Original", "Replay", "Replay"
+		],
+		
+		"types": [
+			"GN23 S", "KI52 BKF", "LR55 HP", "MI102 S", "B81", "H-290 GMFP", "H-344 HS",
+			"H-531",
+			"BKFP", "KAP", "Kapitan B"
+		],
+
+		"characteristics": {
+			"ДИАМЕТР": ["R13", "R14", "R15", "R16", "R17"],
+			"ШИРИНА ДИСКА": {"start": 4, "end": 8, "step": 0.5},
+			"PCD": ["4x98", "4x100", "5x100", "5x104", "5x114"],
+			"DIA": {"start": 40, "end": 90, "step": 1},
+			"ЦВЕТ": ["Черный", "GM", "MS", "gold", "chrome", "FCGL"]
+		}
+	}
+}
